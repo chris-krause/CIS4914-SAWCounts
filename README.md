@@ -11,3 +11,4 @@ I design and implement efficient recursive algorithms that enumerate the followi
  
 * Hamiltonian paths
   * A path in a graph that visits every vertex exactly once
+  * [Wikipedia article](https://en.wikipedia.org/wiki/Hamiltonian_path)
