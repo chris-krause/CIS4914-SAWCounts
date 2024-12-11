@@ -1,0 +1,15 @@
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\begin{align*}
+A(n) &= C(n-1), \quad &A(2) &= 0 \\
+B(n) &= A(n-1) + E(n-1), \quad &B(2) &= 1 \\
+C(n) &= A(n-1) + E(n-1), \quad &C(2) &= 1 \\
+D(n) &= A(n-1) + E(n-1), \quad &D(2) &= 1 \\
+E(n) &= B(n-1), \quad &E(2) &= 0 \\
+\text{counts}(n) &= D(n)
+\end{align*}
+
+\end{document}

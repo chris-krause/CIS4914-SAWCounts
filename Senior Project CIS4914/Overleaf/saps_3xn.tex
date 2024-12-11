@@ -1,0 +1,12 @@
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\begin{align*}
+A(n) &= 1 + A(n-1) + B(n-1), \quad &A(1) &= 0 \\
+B(n) &= 1 + 2A(n-1) + B(n-1), \quad &B(1) &= 0 \\
+\text{counts}(n) &= \text{counts}(n-1) + 2A(n) + B(n), \quad &\text{counts}(1) &= 0
+\end{align*}
+
+\end{document}

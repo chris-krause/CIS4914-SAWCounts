@@ -1,0 +1,1 @@
+# trivial and easy case, solved algebraically

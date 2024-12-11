@@ -1,0 +1,19 @@
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\begin{align*}
+A(n) &= A(n-1) + 2C(n-1) + E(n-1) + I(n-1), \quad &A(2) &= 1 \\
+B(n) &= 2E(n-1), \quad &B(2) &= 0 \\
+C(n) &= E(n-1), \quad &C(2) &= 0 \\
+D(n) &= 2A(n-1) + C(n-1) + E(n-1) + F(n-1) + G(n-1) + H(n-1), \quad &D(2) &= 1 \\
+E(n) &= 2C(n-1), \quad &E(2) &= 1 \\
+F(n) &= 2A(n-1) + 2B(n-1) + 2C(n-1) + 2D(n-1) + 2G(n-1), \quad &F(2) &= 2 \\
+G(n) &= A(n-1) + C(n-1) + G(n-1), \quad &G(2) &= 1 \\
+H(n) &= E(n-1) + H(n-1), \quad &H(2) &= 0 \\
+I(n) &= A(n-1) + C(n-1) + E(n-1) + G(n-1) + H(n-1), \quad &I(2) &= 1 \\
+\text{counts}(n) &= 2A(n) + 2C(n) + 2E(n) + F(n) + 2I(n)
+\end{align*}
+
+\end{document}
